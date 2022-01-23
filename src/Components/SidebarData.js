@@ -1,8 +1,10 @@
 import React from 'react';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
-import MailIcon from '@mui/icons-material/Mail';
-import AccountBalanceSharpIcon from '@mui/icons-material/AccountBalanceSharp';
-import AddCircleSharpIcon from '@mui/icons-material/AddCircleSharp';
+import NotificationsActiveSharpIcon from '@mui/icons-material/NotificationsActiveSharp';
+import MenuBookSharpIcon from '@mui/icons-material/MenuBookSharp';
+import LibraryBooksSharpIcon from '@mui/icons-material/LibraryBooksSharp';
+import EqualizerSharpIcon from '@mui/icons-material/EqualizerSharp';
+import LogoutSharpIcon from '@mui/icons-material/LogoutSharp';
 
 
 export const SidebarData = [
@@ -12,18 +14,28 @@ export const SidebarData = [
         link: "/home",
     },
     {
-        title: "Mail",
-        icon: <MailIcon/>,
-        link: "/mail",
+        title: "Notifications",
+        icon: <NotificationsActiveSharpIcon/>,
+        link: "/notifications",
     },
     {
         title: "Exam",
-        icon: <AccountBalanceSharpIcon/>,
+        icon: <MenuBookSharpIcon/>,
         link: "/exam",
     },
     {
+        title: "Result",
+        icon: <LibraryBooksSharpIcon/>,
+        link: "/result",
+    },
+    {
         title: "Attendence",
-        icon: <AddCircleSharpIcon/>,
+        icon: <EqualizerSharpIcon/>,
         link: "/attendence",
+    },
+    {
+        title: "Log Out",
+        icon: <LogoutSharpIcon/>,
+        link: "/logout",
     },
 ];
